@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class ServiceService {
-    url = "https://amanyddv.vercel.app/"
+    url = "https://amanyddv-api.vercel.app/"
     local = "http://localhost:7000/"
   constructor(private http:HttpClient) { }
 
