@@ -13,4 +13,5 @@ export class ServiceService {
   send(contact:any){
     return this.http.post<any>(this.url+"contact",contact)
   }
+  done="done"
 }
