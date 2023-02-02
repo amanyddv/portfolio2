@@ -18,7 +18,7 @@ export class ProjectComponent implements OnInit {
     title:"Social Med",
     image:"social med.png",
     info:"Visit Social Med",
-    link:"https://social-med.vercel.app/"
+    link:"https://socialmed.vercel.app/"
   },
   {
     title:"AR CAR",
