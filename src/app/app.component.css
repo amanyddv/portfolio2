@@ -16,7 +16,12 @@
 
   
 }
+.togglebtn{
 
+  display: none;
+
+  
+}
 .header img{
     float:right;
     width: 3vw;
