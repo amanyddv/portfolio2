@@ -6,7 +6,6 @@
   padding-top: 8vh; 
   padding-left: 18vh; 
 
-  height: 1000vh;
     width: 87vw
 }
 
@@ -61,8 +60,8 @@
     background-color: rgb(255, 255, 255);
     float:none;
   padding-top: 6vh; 
-  padding-left: 0vh; 
-
+  padding-left: 1vh; 
+  
   height: 100vh;
     width: 100vw
 }

@@ -4,7 +4,7 @@
     background-color: rgb(255, 255, 255);
     float:right;
   padding-top: 8vh; 
-    height: 1000vh;
+
     width: 87vw
 }
 
@@ -36,8 +36,8 @@
     display:block;
     font-size: larger;
     padding-top: 5vh;
-    margin-left: 10vw; 
-    margin-right: 10vw;
+    margin-left: 12vw; 
+    margin-right: 8vw;
     text-align: justify; 
 
 }

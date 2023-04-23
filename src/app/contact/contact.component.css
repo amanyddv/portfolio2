@@ -2,8 +2,8 @@
     position:static ;
     background-color: rgb(255, 255, 255);
     float:right;
-  padding-top: 8vh; 
-    height: 1000vh;
+    padding-top: 8vh; 
+
     width: 87vw
 }
 
@@ -90,6 +90,10 @@
     box-shadow: rgba(250, 202, 68, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
     
   }
+  
+  #contact{
+    padding-left: 18vh;
+}
 
   @media only screen and (max-width: 768px) {
     .body{
@@ -104,6 +108,9 @@
        display: none;
        float: none;
 
+    }
+    #contact{
+        padding-left: 1vh;
     }
     .userSection {
         position: static;
