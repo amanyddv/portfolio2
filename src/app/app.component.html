@@ -1,39 +1,15 @@
-<header class="header">
-  
-  
-  
-    <label for="toggle" class="toggle" ><img src="./assets/toggle.png"  ></label>
-    <button (click)="toggle()" id="toggle" class="togglebtn" ></button>
-
-    
-
-  <img src="./assets/profile.jpg" alt="" class="icon">
-
-</header>
-
-<router-outlet></router-outlet>
-
-
-
-
 <div class="footer" *ngIf="footer">
   <ul>
-  <li> Aman Yadav</li>
-    <li><a routerLink="about" > About</a></li>
-    <li><a routerLink="project"> Project </a></li>
-    <li><a routerLink="contact"> Contact </a></li>
+  <li id="name"> Aman Yadav</li>
+    <li><a href="#about" > About</a></li>
+    <!-- <li><a routerLink="project"> Project </a></li> -->
+    <li><a href="#project"> Project </a></li>
+    <li><a href="#contact"> Contact </a></li>
 
     
   
-    <li><a href="https://github.com/amanyddv"   target="_target"><img src="./assets/github.jpeg" width="30vw"></a></li>
-    <li><a href="https://www.linkedin.com/in/aman-yadav-5a869b217/"  target="_target"><img src="./assets/linkedin.png" width="30vw"></a></li>
-    <li><a href="https://twitter.com/amanyddv_"  target="_target"><img src="./assets/twitter.png" width="30vw"></a></li>
-  
-  
-
-    <li><audio controls id="song" >
-        <source src="./assets/song/{{nxtsong}}" type="audio/mpeg">
-      </audio></li>
 
   </ul>
 </div>
+<router-outlet></router-outlet>
+
